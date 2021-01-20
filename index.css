@@ -1,0 +1,25 @@
+html,
+body {
+    margin: 0px;
+    padding: 0;
+    width: 100%;
+    min-height: 2000px;
+    overflow-x: hidden;
+}
+
+.scroll {
+    position: static;
+    overflow: hidden;
+    z-index: 2;
+}
+
+iframe {
+    border-width: 0;
+}
+
+.text {
+    color: blue;
+    position: absolute;
+    top: 20%;
+    z-index: -1;
+}
